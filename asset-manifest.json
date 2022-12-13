@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/plan-schedule/static/css/main.e1c9a93e.css",
+    "main.js": "/plan-schedule/static/js/main.a3fb390f.js",
+    "index.html": "/plan-schedule/index.html",
+    "main.e1c9a93e.css.map": "/plan-schedule/static/css/main.e1c9a93e.css.map",
+    "main.a3fb390f.js.map": "/plan-schedule/static/js/main.a3fb390f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1c9a93e.css",
+    "static/js/main.a3fb390f.js"
+  ]
+}
