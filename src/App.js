@@ -1,10 +1,17 @@
 import './App.css';
-import FormSchedule from '../src/components/FormSchedule/FormSchedule'
+import { useState } from 'react'
+import Schedule from '../src/components/Schedule'
 
 function App() {
+
+  const [comparing, setComparing] = useState(false)
+
   return (
     <div>
-      <FormSchedule />
+      {comparing || <Schedule />}
+
+      {/* {comparing || <button onClick={() => setComparing(true)}>So sánh thời khóa biểu</button>}
+      {comparing && <button onClick={() => setComparing(false)}>Tạo thời khóa biểu</button>} */}
     </div>
   );
 }
