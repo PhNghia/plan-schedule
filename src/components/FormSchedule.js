@@ -15,7 +15,7 @@ export default function FormSchedule({ mode, schedules, indexOfCurrentSchedule, 
     const formatTextRef = useRef()
 
     const submitFormCallbacks = {
-        'one-bye-one': handleSubmitFormForOne,
+        'one-by-one': handleSubmitFormForOne,
         'all-by-one': handleSubmitFormForAll
     }
 
